@@ -1,27 +1,232 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "project": "Attention Lab",
-  "page_updated": "2026-10-24",
-  "scope": "Public progress journal for a private adult prototype. No public assessment or clinical validation claim.",
   "tracker_snapshot": {
-    "date": "2026-09-30",
-    "total_tasks": 25,
-    "done": 8,
-    "in_progress": 3,
+    "date": "2026-10-24",
+    "total_tasks": 27,
+    "done": 9,
+    "in_progress": 4,
+    "ready": 0,
     "blocked": 1,
-    "backlog": 13,
-    "note": "Historical documented task counts, not product readiness. The publication task is outside this product snapshot."
+    "backlog": 13
   },
-  "current_development": {
-    "observed": "2026-10-24",
-    "summary": "Private Windows beta in development: questionnaire flow, keyboard attention task, separate reports and optional local history.",
-    "limit": "Local source presence does not establish acceptance, device qualification or release readiness."
-  },
-  "verified_foundation": [
-    {"tasks": ["ARC-001", "UI-002"], "summary": "Bilingual PWA shell, offline preview, selected light and dark design."},
-    {"tasks": ["INS-001"], "summary": "Official screener sources and scoring specification passed a separate AI engineering review against 33 synthetic examples. Clinical and human bilingual validation are not established."},
-    {"tasks": ["TIM-001"], "summary": "Browser timing probe and explicit local export implemented; device evidence remains in progress."}
+  "content_reviewed": "2026-10-24",
+  "scope": "Automatically published tracker-recorded progress. Task status is not clinical validation or product readiness.",
+  "tasks": [
+    {
+      "id": "SET-001",
+      "status": "done",
+      "stage": "foundation",
+      "label": "Repository foundation"
+    },
+    {
+      "id": "ENV-001",
+      "status": "done",
+      "stage": "foundation",
+      "label": "Working environment"
+    },
+    {
+      "id": "SCP-001",
+      "status": "done",
+      "stage": "foundation",
+      "label": "Private prototype scope"
+    },
+    {
+      "id": "OPS-001",
+      "status": "done",
+      "stage": "foundation",
+      "label": "Project check-in routine"
+    },
+    {
+      "id": "INS-001",
+      "status": "done",
+      "stage": "prototype",
+      "label": "Official source review"
+    },
+    {
+      "id": "ARC-001",
+      "status": "done",
+      "stage": "prototype",
+      "label": "Bilingual app foundation"
+    },
+    {
+      "id": "TIM-001",
+      "status": "in_progress",
+      "stage": "prototype",
+      "label": "Browser timing evidence"
+    },
+    {
+      "id": "PRO-001",
+      "status": "backlog",
+      "stage": "prototype",
+      "label": "Versioned attention protocol"
+    },
+    {
+      "id": "ENG-001",
+      "status": "backlog",
+      "stage": "prototype",
+      "label": "Deterministic task engine"
+    },
+    {
+      "id": "UI-002",
+      "status": "done",
+      "stage": "prototype",
+      "label": "Light and dark design"
+    },
+    {
+      "id": "UI-001",
+      "status": "backlog",
+      "stage": "prototype",
+      "label": "Bilingual assessment flow"
+    },
+    {
+      "id": "DAT-001",
+      "status": "backlog",
+      "stage": "prototype",
+      "label": "Local data controls"
+    },
+    {
+      "id": "QA-001",
+      "status": "backlog",
+      "stage": "pilot",
+      "label": "Engineering and accessibility checks"
+    },
+    {
+      "id": "PIL-001",
+      "status": "backlog",
+      "stage": "pilot",
+      "label": "Adult engineering pilot"
+    },
+    {
+      "id": "MEAS-001",
+      "status": "backlog",
+      "stage": "evidence",
+      "label": "Physical timing qualification"
+    },
+    {
+      "id": "AUD-001",
+      "status": "backlog",
+      "stage": "evidence",
+      "label": "Audit evidence preparation"
+    },
+    {
+      "id": "COM-001",
+      "status": "backlog",
+      "stage": "later",
+      "label": "Commercial direction"
+    },
+    {
+      "id": "COM-002",
+      "status": "backlog",
+      "stage": "later",
+      "label": "Additional test evaluation"
+    },
+    {
+      "id": "COM-003",
+      "status": "backlog",
+      "stage": "later",
+      "label": "Cross-test AI research"
+    },
+    {
+      "id": "CLIN-001",
+      "status": "backlog",
+      "stage": "later",
+      "label": "Clinical evidence planning"
+    },
+    {
+      "id": "PED-001",
+      "status": "backlog",
+      "stage": "later",
+      "label": "Separate pediatric evaluation"
+    },
+    {
+      "id": "LOG-001",
+      "status": "in_progress",
+      "stage": "foundation",
+      "label": "Discussion records"
+    },
+    {
+      "id": "LOG-002",
+      "status": "blocked",
+      "stage": "evidence",
+      "label": "Protected record retention"
+    },
+    {
+      "id": "OPS-002",
+      "status": "done",
+      "stage": "foundation",
+      "label": "Discussion accountability"
+    },
+    {
+      "id": "MIG-001",
+      "status": "in_progress",
+      "stage": "foundation",
+      "label": "Project continuity"
+    },
+    {
+      "id": "PUB-001",
+      "status": "done",
+      "stage": "foundation",
+      "label": "Public project journal"
+    },
+    {
+      "id": "PUB-002",
+      "status": "in_progress",
+      "stage": "foundation",
+      "label": "Automatic progress publishing"
+    }
   ],
-  "next_evidence": ["Assessment acceptance checks", "Device and keyboard observations", "Physical timing qualification", "Protected record retention"],
-  "deferred": ["Commercial features", "Paid additional tests", "Cross-test AI reporting", "Clinical validation", "Children and teens product"]
+  "stages": [
+    {
+      "id": "foundation",
+      "label": "Lay the foundation",
+      "total_tasks": 9,
+      "done": 6,
+      "in_progress": 3,
+      "ready": 0,
+      "blocked": 0,
+      "backlog": 0
+    },
+    {
+      "id": "prototype",
+      "label": "Build the prototype",
+      "total_tasks": 8,
+      "done": 3,
+      "in_progress": 1,
+      "ready": 0,
+      "blocked": 0,
+      "backlog": 4
+    },
+    {
+      "id": "pilot",
+      "label": "Test in the real world",
+      "total_tasks": 2,
+      "done": 0,
+      "in_progress": 0,
+      "ready": 0,
+      "blocked": 0,
+      "backlog": 2
+    },
+    {
+      "id": "evidence",
+      "label": "Make the evidence stronger",
+      "total_tasks": 3,
+      "done": 0,
+      "in_progress": 0,
+      "ready": 0,
+      "blocked": 1,
+      "backlog": 2
+    },
+    {
+      "id": "later",
+      "label": "Consider what comes next",
+      "total_tasks": 5,
+      "done": 0,
+      "in_progress": 0,
+      "ready": 0,
+      "blocked": 0,
+      "backlog": 5
+    }
+  ],
+  "snapshot_id": "0fa42e609fd7"
 }
