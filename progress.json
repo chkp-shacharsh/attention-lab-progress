@@ -4,8 +4,8 @@
   "tracker_snapshot": {
     "date": "2026-10-24",
     "total_tasks": 27,
-    "done": 9,
-    "in_progress": 4,
+    "done": 10,
+    "in_progress": 3,
     "ready": 0,
     "blocked": 1,
     "backlog": 13
@@ -171,7 +171,7 @@
     },
     {
       "id": "PUB-002",
-      "status": "in_progress",
+      "status": "done",
       "stage": "foundation",
       "label": "Automatic progress publishing"
     }
@@ -181,8 +181,8 @@
       "id": "foundation",
       "label": "Lay the foundation",
       "total_tasks": 9,
-      "done": 6,
-      "in_progress": 3,
+      "done": 7,
+      "in_progress": 2,
       "ready": 0,
       "blocked": 0,
       "backlog": 0
@@ -228,5 +228,5 @@
       "backlog": 5
     }
   ],
-  "snapshot_id": "0fa42e609fd7"
+  "snapshot_id": "f9e03cd720c2"
 }
