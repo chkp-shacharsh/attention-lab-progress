@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "project": "Attention Lab",
+  "page_updated": "2026-10-24",
+  "scope": "Public progress journal for a private adult prototype. No public assessment or clinical validation claim.",
+  "tracker_snapshot": {
+    "date": "2026-09-30",
+    "total_tasks": 25,
+    "done": 8,
+    "in_progress": 3,
+    "blocked": 1,
+    "backlog": 13,
+    "note": "Historical documented task counts, not product readiness. The publication task is outside this product snapshot."
+  },
+  "current_development": {
+    "observed": "2026-10-24",
+    "summary": "Private Windows beta in development: questionnaire flow, keyboard attention task, separate reports and optional local history.",
+    "limit": "Local source presence does not establish acceptance, device qualification or release readiness."
+  },
+  "verified_foundation": [
+    {"tasks": ["ARC-001", "UI-002"], "summary": "Bilingual PWA shell, offline preview, selected light and dark design."},
+    {"tasks": ["INS-001"], "summary": "Official screener sources and scoring specification passed a separate AI engineering review against 33 synthetic examples. Clinical and human bilingual validation are not established."},
+    {"tasks": ["TIM-001"], "summary": "Browser timing probe and explicit local export implemented; device evidence remains in progress."}
+  ],
+  "next_evidence": ["Assessment acceptance checks", "Device and keyboard observations", "Physical timing qualification", "Protected record retention"],
+  "deferred": ["Commercial features", "Paid additional tests", "Cross-test AI reporting", "Clinical validation", "Children and teens product"]
+}
