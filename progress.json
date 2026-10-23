@@ -3,12 +3,12 @@
   "project": "Attention Lab",
   "tracker_snapshot": {
     "date": "2026-10-24",
-    "total_tasks": 27,
-    "done": 10,
-    "in_progress": 3,
+    "total_tasks": 28,
+    "done": 11,
+    "in_progress": 8,
     "ready": 0,
     "blocked": 1,
-    "backlog": 13
+    "backlog": 8
   },
   "content_reviewed": "2026-10-24",
   "scope": "Automatically published tracker-recorded progress. Task status is not clinical validation or product readiness.",
@@ -57,13 +57,13 @@
     },
     {
       "id": "PRO-001",
-      "status": "backlog",
+      "status": "in_progress",
       "stage": "prototype",
       "label": "Versioned attention protocol"
     },
     {
       "id": "ENG-001",
-      "status": "backlog",
+      "status": "in_progress",
       "stage": "prototype",
       "label": "Deterministic task engine"
     },
@@ -75,19 +75,19 @@
     },
     {
       "id": "UI-001",
-      "status": "backlog",
+      "status": "in_progress",
       "stage": "prototype",
       "label": "Bilingual assessment flow"
     },
     {
       "id": "DAT-001",
-      "status": "backlog",
+      "status": "in_progress",
       "stage": "prototype",
       "label": "Local data controls"
     },
     {
       "id": "QA-001",
-      "status": "backlog",
+      "status": "in_progress",
       "stage": "pilot",
       "label": "Engineering and accessibility checks"
     },
@@ -164,6 +164,12 @@
       "label": "Project continuity"
     },
     {
+      "id": "WIN-001",
+      "status": "done",
+      "stage": "prototype",
+      "label": "Windows beta review"
+    },
+    {
       "id": "PUB-001",
       "status": "done",
       "stage": "foundation",
@@ -190,22 +196,22 @@
     {
       "id": "prototype",
       "label": "Build the prototype",
-      "total_tasks": 8,
-      "done": 3,
-      "in_progress": 1,
+      "total_tasks": 9,
+      "done": 4,
+      "in_progress": 5,
       "ready": 0,
       "blocked": 0,
-      "backlog": 4
+      "backlog": 0
     },
     {
       "id": "pilot",
       "label": "Test in the real world",
       "total_tasks": 2,
       "done": 0,
-      "in_progress": 0,
+      "in_progress": 1,
       "ready": 0,
       "blocked": 0,
-      "backlog": 2
+      "backlog": 1
     },
     {
       "id": "evidence",
@@ -228,5 +234,5 @@
       "backlog": 5
     }
   ],
-  "snapshot_id": "f9e03cd720c2"
+  "snapshot_id": "ee8524e229c0"
 }
